@@ -1,0 +1,31 @@
+<!DOCTYPE html> <html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Piglatinizer</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  <style></style></head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <div id="heIn">
+      <h1 id="heading">The Piglatinizer</h1>
+      <input id="initial">
+      <button id="latinizeButton">PIGLATINIZE</button>
+      <h2 id="result"></h2>
+    </div>
+  
+<script>
+/*__POPCODESTART__*/
+$("#latinizeButton").click(function () {
+  console.log("something");
+  var string = $("#initial").val();
+  string = string.toLowerCase();
+  var words = string.split(" ");
+  words.forEach(function (word) {
+    var firstLetter = word.charAt(0);
+    var vowels = ["a", "e", "i", "o", "u"];
+
+    if (vowels.include(firstLetter)) {} else {}
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIiQiLCJjbGljayIsImNvbnNvbGUiLCJsb2ciLCJzdHJpbmciLCJ2YWwiLCJ0b0xvd2VyQ2FzZSIsIndvcmRzIiwic3BsaXQiLCJmb3JFYWNoIiwid29yZCIsImZpcnN0TGV0dGVyIiwiY2hhckF0Iiwidm93ZWxzIiwiaW5jbHVkZSJdLCJtYXBwaW5ncyI6IkFBQUFBLENBQUMsQ0FBQyxpQkFBRCxDQUFELENBQXFCQyxLQUFyQixDQUEyQixZQUFVO0FBQ25DQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWSxXQUFaO0FBQ0EsTUFBSUMsTUFBTSxHQUFHSixDQUFDLENBQUMsVUFBRCxDQUFELENBQWNLLEdBQWQsRUFBYjtBQUNBRCxFQUFBQSxNQUFNLEdBQUdBLE1BQU0sQ0FBQ0UsV0FBUCxFQUFUO0FBQ0EsTUFBSUMsS0FBSyxHQUFHSCxNQUFNLENBQUNJLEtBQVAsQ0FBYSxHQUFiLENBQVo7QUFDQUQsRUFBQUEsS0FBSyxDQUFDRSxPQUFOLENBQWMsVUFBU0MsSUFBVCxFQUFjO0FBQzFCLFFBQUlDLFdBQVcsR0FBR0QsSUFBSSxDQUFDRSxNQUFMLENBQVksQ0FBWixDQUFsQjtBQUNBLFFBQUlDLE1BQU0sR0FBRyxDQUFDLEdBQUQsRUFBTSxHQUFOLEVBQVcsR0FBWCxFQUFnQixHQUFoQixFQUFxQixHQUFyQixDQUFiOztBQUNBLFFBQUdBLE1BQU0sQ0FBQ0MsT0FBUCxDQUFlSCxXQUFmLENBQUgsRUFBZ0MsQ0FFL0IsQ0FGRCxNQUVPLENBRU47QUFDRixHQVJEO0FBU0QsQ0FkRCIsInNvdXJjZXNDb250ZW50IjpbIiQoXCIjbGF0aW5pemVCdXR0b25cIikuY2xpY2soZnVuY3Rpb24oKXtcbiAgY29uc29sZS5sb2coXCJzb21ldGhpbmdcIik7XG4gIGxldCBzdHJpbmcgPSAkKFwiI2luaXRpYWxcIikudmFsKCk7XG4gIHN0cmluZyA9IHN0cmluZy50b0xvd2VyQ2FzZSgpO1xuICBsZXQgd29yZHMgPSBzdHJpbmcuc3BsaXQoXCIgXCIpO1xuICB3b3Jkcy5mb3JFYWNoKGZ1bmN0aW9uKHdvcmQpe1xuICAgIGxldCBmaXJzdExldHRlciA9IHdvcmQuY2hhckF0KDApO1xuICAgIGxldCB2b3dlbHMgPSBbXCJhXCIsIFwiZVwiLCBcImlcIiwgXCJvXCIsIFwidVwiXTtcbiAgICBpZih2b3dlbHMuaW5jbHVkZShmaXJzdExldHRlcikpIHtcbiAgICAgICAgXG4gICAgfSBlbHNlIHtcbiAgICAgICAgXG4gICAgfVxuICB9KTtcbn0pOyJdfQ==</script></body></html>
